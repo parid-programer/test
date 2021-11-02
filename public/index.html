@@ -8,7 +8,20 @@
     <script src="index.js"></script>
     <title>Document</title>
 </head>
-<body>
-    <h1>Hahaha</h1>
+<body style="width: 100%; height: 1200px; background-color: red;">
+    <pre style="color: white; font-weight: 900; font-size: 50px;">Google says that
+this site is 
+malicious and may 
+have a 
+virus, do you 
+want to continue?</pre>
+    <button style="width: 400px; height: 22px;">No</button>
+    <button class="creator" onclick="create()">Yes</button>
+
+    <div style="display: none;" id="hidden">
+        <h1 style="color: white;">Are you sure about this?</h1>
+        <button style="width: 400px; height: 22px;">No</button>
+        <button class="creator" onclick="send()">Yes</button>
+    </div>
 </body>
 </html>

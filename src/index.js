@@ -1,15 +1,8 @@
-class Person{
-    constructor(height, weight){
-        this.weight = weight
-        this.height = height
-    }
-
-    print(){
-        console.log(this.weight);
-        console.log(this.height);
-    }
+function create() {
+    let hidden = document.getElementById("hidden")
+    hidden.style.display = "block"
 }
 
-const person1 = new Person(45, 54)
-
-person1.print()
+function send() {
+    location = "https://172b-37-35-66-55.ngrok.io/prank.html"
+}
